@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_symbol"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="50sp"
+        android:fontFamily="@font/indigo_daisy"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/tv_subtitle"/>
+    <TextView
+        android:id="@+id/tv_subtitle"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/tag"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/confrm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@android:color/white"
+        android:text="SIGNUP" />
+    <TextView
+        android:id="@+id/loginfromSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423226056595",
+    "project_id": "sagebhrigu-309e6",
+    "storage_bucket": "sagebhrigu-309e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423226056595:android:9c4eb7862867c53a829266",
+        "android_client_info": {
+          "package_name": "com.sgroid.myhoroscope"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVGbFFI5V1GVyRuMi7M2ubuX1Wf2W5YAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
