@@ -1,6 +1,26 @@
 <resources>
-    <string name="app_name">MyHoroscope</string>
+    <string name="app_name">SAGEBHRIGU</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="hom_heade_label">Horoscope Match in 2024?</string>
+    <string name="hom_header_Sublabel">Seriously?!</string>
+    <string name="hom_desc">Discover ancient wisdom and modern insights in our blended matchmaking report, rooted in the Vedas and tailored to today\'s priorities. Consult our experienced astrologers for guidance on love, life, and prosperity.</string>
+    <string name="smiley"><![CDATA[&#128522;]]></string>
+    <string name="heading"><![CDATA[Children & Family growth]]></string>
+    <string name="desc1">With a high level of confidence, we can predict whether the couple would face any problem in conceiving the Children?</string>
+    <string name="heading2">Financial Growth</string>
+    <string name="desc2">We can confidentallly predict the couple\'s financial stability and rate of growth.</string>
+    <string name="heading3">Numerological and Rashi lord relations</string>
+    <string name="desc3">We will match the Lagan Kundali to understand compatibility between the couple.</string>
+    <string name="heading4">Logetivity Prediction</string>
+    <string name="desc4">"We can also predict the longevity of the marriage and whether there are any chances of litigations or not in the future? "</string>
+    <string name="heading5">Partner Loyalty</string>
+    <string name="desc5">"We can predict whether your Partner would be loyal to you or there are chances of cheating? "</string>
+    <string name="heading6">Soul Connection</string>
+    <string name="desc6">We can share whether there would be a Soul connection between the couple or not ?</string>
+    <string name="about_heade_label">"Blending Tradition with "</string>
+    <string name="about_header_Sublabel">Astrology</string>
+    <string name="about_desc">Vedas, ancient divine messages, gave birth to astrology. Sage Bhrigu pioneered Bhrigu Samhita, the earliest astrological text. While kundali matching was once paramount, it now blends traditional insights with modern priorities.</string>
+    <string name="about_desc2">Our report combines horoscopes, numerology, financial prospects, and partner loyalty, offering guidance and remedies from experienced Astrologers with over 15 years of expertise.</string>
 </resources>

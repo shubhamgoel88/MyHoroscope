@@ -1,6 +1,7 @@
 package com.sgroid.myhoroscope
 
 import android.app.ProgressDialog
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -35,6 +36,11 @@ class LoginActivity : AppCompatActivity() {
                             "Login Successful",
                             Toast.LENGTH_LONG
                         ).show()
+                        val sharedPreference =  getSharedPreferences("SAGEBHRIGU",Context.MODE_PRIVATE)
+                        var editor = sharedPreference.edit()
+                        editor.putString("username",email)
+                        editor.commit()
+                        startActivity( Intent (applicationContext, Home::class.java));
                         progressDialog.cancel()
                     }
                     .addOnFailureListener {
